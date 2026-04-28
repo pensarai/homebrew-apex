@@ -1,24 +1,24 @@
 class Apex < Formula
   desc "AI-powered penetration testing CLI tool with terminal UI"
   homepage "https://github.com/pensarai/apex"
-  version "1.0.0"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/pensarai/apex/releases/download/v1.0.0/pensar-darwin-arm64.tar.gz"
-      sha256 "ddad141397d1aa207efd42f574ea4c674f23451b72d603005946cd3c7b6c61bc"
+      url "https://github.com/pensarai/apex/releases/download/v1.1.0/pensar-darwin-arm64.tar.gz"
+      sha256 "6b83e3b273fb15757c0ae6985ca6b79dd78050a1cc792bd862bf39389548bfaf"
     end
     on_intel do
-      url "https://github.com/pensarai/apex/releases/download/v1.0.0/pensar-darwin-x64.tar.gz"
-      sha256 "57a02e3906ef88a6a317dd6373bb300b14f1e1b4fd56faac7caa82679ad6b347"
+      url "https://github.com/pensarai/apex/releases/download/v1.1.0/pensar-darwin-x64.tar.gz"
+      sha256 "e3c99a54805a5ebf923f3dd4f26f6decbc8738bb95a8024cf321cbe41bbb9212"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/pensarai/apex/releases/download/v1.0.0/pensar-linux-x64.tar.gz"
-      sha256 "4427f1e4f3176d4689a24541ad34876534a552b62dbb8c45fa4fe636fd8d9cc7"
+      url "https://github.com/pensarai/apex/releases/download/v1.1.0/pensar-linux-x64.tar.gz"
+      sha256 "068b2904b88149d56db2eb1ad6338c067318497b4479d42c06b2e745bd39c0cd"
     end
   end
 
